@@ -1,9 +1,4 @@
-nomes = ["Cristiano", "Maria", "João", "Ana", "Pedro", "Carla", "Rosa", "Paulo", "Sofia", "Lucas"]
-nome_o = []
-
-for nome in nomes:
-    if  nome.lower()[-1] == "o":
-        nome_o.append(nome)
-
-nome_o.sort(reverse=True)
-print(nome_o)
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(f"{i} x {j} = {i*j}")
+    print()
