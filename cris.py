@@ -1,9 +1,9 @@
-nomes = ["JESSICA", "GESSICA","VANESSA","SUSANA","MARIANA",]
-nome_2S = []
+nomes = ["Cristiano", "Maria", "João", "Ana", "Pedro", "Carla", "Rosa", "Paulo", "Sofia", "Lucas"]
+nome_o = []
 
 for nome in nomes:
-    if  nome.lower().count("s") == 2:
-        nome_2S.append(nome)
+    if  nome.lower()[-1] == "o":
+        nome_o.append(nome)
 
-print(nome_2S)
-    
+nome_o.sort(reverse=True)
+print(nome_o)
